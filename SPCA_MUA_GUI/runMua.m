@@ -22,7 +22,7 @@ function varargout = runMua(varargin)
 
 % Edit the above text to modify the response to help runMua
 
-% Last Modified by GUIDE v2.5 03-Oct-2013 14:56:08
+% Last Modified by GUIDE v2.5 10-Oct-2013 13:58:04
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -127,18 +127,18 @@ end
 
 
 
-function edit2_Callback(hObject, eventdata, handles)
-% hObject    handle to edit2 (see GCBO)
+function IV1Label_Input_Callback(hObject, eventdata, handles)
+% hObject    handle to IV1Label_Input (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit2 as text
-%        str2double(get(hObject,'String')) returns contents of edit2 as a double
+% Hints: get(hObject,'String') returns contents of IV1Label_Input as text
+%        str2double(get(hObject,'String')) returns contents of IV1Label_Input as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit2_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit2 (see GCBO)
+function IV1Label_Input_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to IV1Label_Input (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -173,18 +173,18 @@ end
 
 
 
-function edit4_Callback(hObject, eventdata, handles)
-% hObject    handle to edit4 (see GCBO)
+function IV2Label_Input_Callback(hObject, eventdata, handles)
+% hObject    handle to IV2Label_Input (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit4 as text
-%        str2double(get(hObject,'String')) returns contents of edit4 as a double
+% Hints: get(hObject,'String') returns contents of IV2Label_Input as text
+%        str2double(get(hObject,'String')) returns contents of IV2Label_Input as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit4_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit4 (see GCBO)
+function IV2Label_Input_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to IV2Label_Input (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -196,18 +196,18 @@ end
 
 
 
-function edit5_Callback(hObject, eventdata, handles)
-% hObject    handle to edit5 (see GCBO)
+function IV2Level_Input_Callback(hObject, eventdata, handles)
+% hObject    handle to IV2Level_Input (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit5 as text
-%        str2double(get(hObject,'String')) returns contents of edit5 as a double
+% Hints: get(hObject,'String') returns contents of IV2Level_Input as text
+%        str2double(get(hObject,'String')) returns contents of IV2Level_Input as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit5_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit5 (see GCBO)
+function IV2Level_Input_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to IV2Level_Input (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -219,18 +219,18 @@ end
 
 
 
-function edit6_Callback(hObject, eventdata, handles)
-% hObject    handle to edit6 (see GCBO)
+function FDR_Input_Callback(hObject, eventdata, handles)
+% hObject    handle to FDR_Input (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit6 as text
-%        str2double(get(hObject,'String')) returns contents of edit6 as a double
+% Hints: get(hObject,'String') returns contents of FDR_Input as text
+%        str2double(get(hObject,'String')) returns contents of FDR_Input as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit6_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit6 (see GCBO)
+function FDR_Input_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to FDR_Input (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -242,18 +242,18 @@ end
 
 
 
-function edit7_Callback(hObject, eventdata, handles)
-% hObject    handle to edit7 (see GCBO)
+function Threshold_Input_Callback(hObject, eventdata, handles)
+% hObject    handle to Threshold_Input (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit7 as text
-%        str2double(get(hObject,'String')) returns contents of edit7 as a double
+% Hints: get(hObject,'String') returns contents of Threshold_Input as text
+%        str2double(get(hObject,'String')) returns contents of Threshold_Input as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit7_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit7 (see GCBO)
+function Threshold_Input_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to Threshold_Input (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -264,8 +264,8 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-% --- Executes on button press in pushbutton2.
-function pushbutton2_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton2 (see GCBO)
+% --- Executes on button press in Run_button.
+function Run_button_Callback(hObject, eventdata, handles)
+% hObject    handle to Run_button (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
