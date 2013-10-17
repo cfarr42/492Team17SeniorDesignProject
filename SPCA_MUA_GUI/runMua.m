@@ -22,7 +22,7 @@ function varargout = runMua(varargin)
 
 % Edit the above text to modify the response to help runMua
 
-% Last Modified by GUIDE v2.5 10-Oct-2013 13:58:04
+% Last Modified by GUIDE v2.5 17-Oct-2013 11:20:50
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -96,9 +96,9 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-% --- Executes on button press in pushbutton1.
-function pushbutton1_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton1 (see GCBO)
+% --- Executes on button press in selectFile_Button.
+function selectFile_Button_Callback(hObject, eventdata, handles)
+% hObject    handle to selectFile_Button (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
